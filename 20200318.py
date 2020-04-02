@@ -9,8 +9,8 @@ from tensorflow.keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 #看數據集內容
-# print(len(x_train))
-# print(len(x_test))
+print(len(x_train))
+print(len(x_test))
 
 n = 9487
 print(x_train[n])
